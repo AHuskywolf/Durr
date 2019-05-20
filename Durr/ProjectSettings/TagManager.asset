@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Trees
+    uniqueID: 1455057243
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Control
+    uniqueID: 1981237173
+    locked: 0
+  - name: Player
+    uniqueID: 3608924411
     locked: 0
