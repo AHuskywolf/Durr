@@ -4054,7 +4054,7 @@ MonoBehaviour:
         m_MethodName: ActionSpawnObject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1778579996555034, guid: b0229f00009f09642b8c04893b98c6a1,
+          m_ObjectArgument: {fileID: 1778579996555034, guid: fd8d2244bdbdc0147acac6e68211770e,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
@@ -4143,7 +4143,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.28661415, g: 0.21092917, b: 0.5660378, a: 0}
+  m_BackGroundColor: {r: 0.13207549, g: 0.13207549, b: 0.13207549, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -5402,7 +5402,6 @@ GameObject:
   - component: {fileID: 1548459262}
   - component: {fileID: 1548459261}
   - component: {fileID: 1548459263}
-  - component: {fileID: 1548459264}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -5557,48 +5556,6 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onStart:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1548459264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1548459257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54a5bb4e5dfd0468cae8bda05487b68e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onDisable:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onDestroy:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1548459262}
-        m_MethodName: ActionSaveValue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onSceneUnloaded:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onApplicationQuit:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
@@ -6851,7 +6808,7 @@ MonoBehaviour:
         m_MethodName: ActionSpawnObject
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1778579996555034, guid: 0090aa1f770cd9340825dbb0514785a4,
+          m_ObjectArgument: {fileID: 1778579996555034, guid: 5a078181a3bc27f4c87bf94b51ff6448,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0

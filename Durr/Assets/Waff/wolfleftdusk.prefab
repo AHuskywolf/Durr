@@ -25,8 +25,10 @@ GameObject:
   - component: {fileID: 70574736988313770}
   - component: {fileID: 114114456524173938}
   - component: {fileID: 114036206717668204}
+  - component: {fileID: 114515228515364724}
+  - component: {fileID: 114993914598444986}
   m_Layer: 0
-  m_Name: wolfleft
+  m_Name: wolfleftdusk
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc3a57f20e0af42f68f9b9bfc12114a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 5
 --- !u!114 &114114456524173938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,6 +148,60 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114515228515364724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778579996555034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a56db369d24ad48a59c29d6ad9c3b296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114993914598444986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1778579996555034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba222e28869084664a4ea8fbc7a6c298, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkName: 0
+  targetName: 
+  checkTag: 1
+  targetTag: Player
+  checkLayer: 0
+  targetLayer: 
+  onCollisionEnterActions:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114515228515364724}
+        m_MethodName: ActionLoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: night
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: OnCollision2DActivator+CollisionAction, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onCollisionStayActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: OnCollision2DActivator+CollisionAction, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onCollisionExitActions:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: OnCollision2DActivator+CollisionAction, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!212 &212053015877321076
 SpriteRenderer:
